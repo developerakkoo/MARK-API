@@ -1,0 +1,7 @@
+{
+  "name": "MarkScrapperApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

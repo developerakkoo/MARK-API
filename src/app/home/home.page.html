@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+   
+    <ion-input type="text" placeholder="Enter URL" [(ngModel)]="websiteURL"></ion-input>
+   <ion-button (click)="parseUrl()"slot="end" fill="clear" shape="round">
+    Parse
+   </ion-button> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-grid fixed>
+  <ion-row>
+    <ion-col size="5" offset="7">
+      <textarea rows="30" cols="70" style="color: black;" ></textarea>
+    </ion-col>
+    <ion-col size="6"></ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
